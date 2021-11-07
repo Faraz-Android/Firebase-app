@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ContentValues contentValues=new ContentValues();
+                //dificult
                 if (radioButton.isChecked()){
                     Toast.makeText(MainActivity.this, "check", Toast.LENGTH_SHORT).show();
                     contentValues.put("gender",radioButton.getText().toString());
