@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     contentValues.put("gender",radioButton2.getText().toString());
                 }
                 sqLiteDatabase=dBmain.getWritableDatabase();
-                Long rec=sqLiteDatabase.insert("studenttable",null,contentValues);
+                Long rec=sqLiteDatabase.insert("student table",null,contentValues);
                 if (rec!=null){
                     Toast.makeText(MainActivity.this, "Data inserted", Toast.LENGTH_SHORT).show();
 
