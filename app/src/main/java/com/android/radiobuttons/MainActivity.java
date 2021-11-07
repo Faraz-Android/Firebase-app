@@ -68,6 +68,6 @@ public class MainActivity extends AppCompatActivity {
         radioButton=(RadioButton)findViewById(R.id.radioButton);
         radioButton2=(RadioButton)findViewById(R.id.radioButton2);
         button=(Button)findViewById(R.id.button);
-        button2=(Button)findViewById(R.id.button2);
+        button2=(Button)findViewById(R.id.button3);
     }
 }
